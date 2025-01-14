@@ -340,3 +340,31 @@ Session ID: 454211294500e2c392e6ca714fe562bb
 2025-01-14 15:40:58 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (dda1260001195fcc657f7838aef68a8f)] -> xpath: //button[contains(text(),'5-6 Yaş')]]
 2025-01-14 15:41:01 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (dda1260001195fcc657f7838aef68a8f)] -> xpath: //button[contains(text(),'SEPETE EKLE')]]
 2025-01-14 15:41:08 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (dda1260001195fcc657f7838aef68a8f)] -> xpath: //header/div[1]/div[3]/div[1]/div[2]/a[1]]
+2025-01-14 19:12:28 INFO  Log:12 - WebDriver instance is being created...
+2025-01-14 19:12:32 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-14 19:12:35 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-14 19:12:35 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-14 19:12:38 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-14 19:12:38 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 19:12:38 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 19:12:45 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-14 19:12:45 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-14 19:12:45 INFO  Log:12 - Text entered: deneme..76 into element: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-14 19:12:52 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Giriş Yap')]'
+2025-01-14 19:12:57 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //a[contains(text(),'ÇOCUK & BEBEK')]]
+2025-01-14 19:12:57 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //span[contains(text(),'KIZ ÇOCUK')]]
+2025-01-14 19:13:16 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.linkText: Mont ve Kaban'
+2025-01-14 19:13:17 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //span[contains(text(),'5-6 Yaş')]]
+2025-01-14 19:13:20 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-14 19:13:21 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[3]/div[3]/div[1]/span[1]]
+2025-01-14 19:13:24 INFO  Log:12 - Text entered: 6-7 Yaş into element: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[1]/input[1]]
+2025-01-14 19:13:26 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //span[contains(text(),'6-7 Yaş')]]
+2025-01-14 19:13:30 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-14 19:13:30 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[3]/div[2]]
+2025-01-14 19:13:33 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-14 19:13:43 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='icon-angle-down']'
+2025-01-14 19:13:46 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //a[contains(text(),'En çok satanlar')]]
+2025-01-14 19:13:58 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[4]/a[1]/div[1]/img[1]'
+2025-01-14 19:14:00 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //button[contains(text(),'5-6 Yaş')]]
+2025-01-14 19:14:03 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //button[contains(text(),'SEPETE EKLE')]]
+2025-01-14 19:14:10 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (167527e63c66a68e5d7c30394b9aa25a)] -> xpath: //header/div[1]/div[3]/div[1]/div[2]/a[1]]
