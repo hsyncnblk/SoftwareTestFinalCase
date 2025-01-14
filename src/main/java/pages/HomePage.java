@@ -13,7 +13,7 @@ public class HomePage extends BasePage{
     private WebElement loginButton;
 
     public void loginScreen() {
-
+        thread();
         click(loginButton);
 
     }

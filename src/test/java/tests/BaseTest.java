@@ -38,6 +38,6 @@ public class BaseTest {
     @AfterClass
     public void tearDown() {
 
-        WebDriverFactory.closeDriver();
+     //   WebDriverFactory.closeDriver();
     }
 }
