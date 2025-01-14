@@ -1,0 +1,25 @@
+2025-01-14 11:37:02 INFO  Log:12 - WebDriver instance is being created...
+2025-01-14 11:37:07 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-14 11:37:09 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-14 11:37:09 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-14 11:37:11 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2efb79377f20406547a4dc598acf51b9)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-14 11:37:12 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2efb79377f20406547a4dc598acf51b9)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 11:37:12 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (2efb79377f20406547a4dc598acf51b9)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 11:37:19 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-14 11:37:19 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2efb79377f20406547a4dc598acf51b9)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-14 11:37:24 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Giriş Yap')]'
+2025-01-14 11:37:29 INFO  Log:12 - Closing WebDriver instance...
+2025-01-14 11:37:29 INFO  Log:12 - WebDriver instance closed successfully.
+2025-01-14 11:38:27 INFO  Log:12 - WebDriver instance is being created...
+2025-01-14 11:38:29 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-14 11:38:32 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-14 11:38:32 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-14 11:38:34 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (d7f40af5eb54be2d7d0618ab57d6689c)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-14 11:38:34 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (d7f40af5eb54be2d7d0618ab57d6689c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 11:38:34 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (d7f40af5eb54be2d7d0618ab57d6689c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-14 11:38:41 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-14 11:38:42 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (d7f40af5eb54be2d7d0618ab57d6689c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-14 11:38:42 INFO  Log:12 - Text entered: deneme..76 into element: [[ChromeDriver: chrome on windows (d7f40af5eb54be2d7d0618ab57d6689c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-14 11:38:49 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Giriş Yap')]'
+2025-01-14 11:38:53 INFO  Log:12 - Closing WebDriver instance...
+2025-01-14 11:38:54 INFO  Log:12 - WebDriver instance closed successfully.
