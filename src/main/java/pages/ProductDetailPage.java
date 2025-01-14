@@ -48,6 +48,9 @@ public class ProductDetailPage extends BasePage{
     }
 
     public void goToCart(){
+
+
+
         clickElement(goToCart);
     }
 

@@ -1,11 +1,12 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.WebDriverFactory;
 
-public class CartTest extends BaseTest{
+public class FavoriteTest extends BaseTest{
+
+
     LoginPage loginPage;
     HomePage homePage;
 
@@ -16,6 +17,8 @@ public class CartTest extends BaseTest{
     FilterPage filterPage;
 
     CartPage cartPage;
+
+    FavoritePage favoritePage;
 
 
     @Test(priority = 1)
@@ -67,5 +70,14 @@ public class CartTest extends BaseTest{
         cartPage.quantitiyTest();
 
         cartPage.removeQuantityTest();
+    }
+
+    @Test(priority = 6)
+    public void testFavorite(){
+        favoritePage = new FavoritePage(WebDriverFactory.getDriver());
+
+        favoritePage.addFavorite();
+
+        favoritePage.verifyFav();
     }
 }

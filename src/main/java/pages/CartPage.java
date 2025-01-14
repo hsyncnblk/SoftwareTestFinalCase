@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 public class CartPage extends BasePage{
@@ -45,4 +46,29 @@ public class CartPage extends BasePage{
         Assert.assertEquals(priceValue,totalPriceValue);
 
     }
+
+    public void quantitiyTest() {
+        try {
+            // "Cart_AddQuantity_" ile başlayan ilk öğeyi seç ve tıkla
+            WebElement quantityButton = driver.findElement(By.xpath("//a[starts-with(@id, 'Cart_AddQuantity_')]"));
+            clickElement(quantityButton);
+        } catch (Exception e) {
+            Assert.fail("Ürün artırma butonu bulunamadı!");
+        }
+    }
+
+    public void removeQuantityTest() {
+        try {
+            // "Cart_RemoveQuantity_" ile başlayan ilk öğeyi seç ve tıkla
+            WebElement removeButton = driver.findElement(By.xpath("//a[starts-with(@id, 'Cart_RemoveQuantity_')]"));
+            wait.until(ExpectedConditions.elementToBeClickable(removeButton));
+
+            removeButton.click();
+        } catch (Exception e) {
+            Assert.fail("Ürün azaltma butonu bulunamadı!");
+        }
+    }
+
+
+
 }
