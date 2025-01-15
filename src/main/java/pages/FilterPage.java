@@ -11,6 +11,9 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class FilterPage extends BasePage{
+
+
+
     public FilterPage(WebDriver driver) {
         super(driver);
     }
@@ -133,5 +136,7 @@ public class FilterPage extends BasePage{
 
         driver.navigate().refresh();
     }
+
+
 
 }

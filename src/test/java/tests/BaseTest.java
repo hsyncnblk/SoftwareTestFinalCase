@@ -3,8 +3,10 @@ package tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import utils.Log;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 import java.time.Duration;
@@ -35,9 +37,15 @@ public class BaseTest {
 
     }
 
+
+    @AfterMethod
+    public void takeScreenshotAfterTest() {
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "test_screenshot");
+    }
+
     @AfterClass
     public void tearDown() {
 
-     //   WebDriverFactory.closeDriver();
+       WebDriverFactory.closeDriver();
     }
 }

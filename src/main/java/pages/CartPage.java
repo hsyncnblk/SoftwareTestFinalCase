@@ -21,6 +21,7 @@ public class CartPage extends BasePage{
     public void verifyProduct(){
 
         WebElement renkElementi = driver.findElement(By.xpath("//span[@class='rd-cart-item-color']/strong"));
+        WebElement selectedSizeProduct = driver.findElement(By.xpath("//span[@class='rd-cart-item-size']/strong"));
         WebElement quantityInput = driver.findElement(By.className("item-quantity-input"));
         WebElement productNameElement = driver.findElement(By.xpath("//span[@class='rd-cart-item-code']"));
         WebElement priceElement = driver.findElement(By.xpath("//span[@class='rd-cart-item-price mb-15']"));
@@ -31,17 +32,21 @@ public class CartPage extends BasePage{
         String actualValue = quantityInput.getAttribute("value");
         String actualProductName = productNameElement.getText().trim();
 
+        String actualSize = selectedSizeProduct.getText();
+
         String priceValue = priceElement.getText().trim();
         String totalPriceValue = totalPriceElement.getText().trim();
 
 
 
 
-        Assert.assertEquals(actualColor, "Koyu Bej");
+        Assert.assertEquals(actualColor, "Bej");
+
+      //  Assert.assertEquals(actualSize, expectedSize);
 
         Assert.assertEquals(actualValue,"1");
 
-        Assert.assertEquals(actualProductName, "Mont");
+        Assert.assertEquals(actualProductName, "Kaban");
 
         Assert.assertEquals(priceValue,totalPriceValue);
 
@@ -49,7 +54,6 @@ public class CartPage extends BasePage{
 
     public void quantitiyTest() {
         try {
-            // "Cart_AddQuantity_" ile başlayan ilk öğeyi seç ve tıkla
             WebElement quantityButton = driver.findElement(By.xpath("//a[starts-with(@id, 'Cart_AddQuantity_')]"));
             clickElement(quantityButton);
         } catch (Exception e) {
@@ -59,7 +63,6 @@ public class CartPage extends BasePage{
 
     public void removeQuantityTest() {
         try {
-            // "Cart_RemoveQuantity_" ile başlayan ilk öğeyi seç ve tıkla
             WebElement removeButton = driver.findElement(By.xpath("//a[starts-with(@id, 'Cart_RemoveQuantity_')]"));
             wait.until(ExpectedConditions.elementToBeClickable(removeButton));
 

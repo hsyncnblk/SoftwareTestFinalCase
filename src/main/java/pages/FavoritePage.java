@@ -31,17 +31,17 @@ public class FavoritePage extends BasePage{
 
         clickElement(favoriteButton);
 
-
-        clickElement(goToFav);
-
-
-
-
     }
 
     public void verifyFav(){
+        clickElement(goToFav);
+
         WebElement productTitle = driver.findElement(By.xpath("//h5[@class='product-card__title']"));
+        WebElement productColor = driver.findElement(By.xpath("//span[@class='product-card__color-title']"));
         String productTitleText = productTitle.getText();
-        Assert.assertEquals(productTitleText,"Kapüşonlu Kız Çocuk Mont");
+        String productColorText = productColor.getText();
+        Assert.assertEquals(productTitleText,"Kapüşonlu Kız Çocuk Kaban");
+        Assert.assertEquals(productColorText,"BEJ");
+
     }
 }

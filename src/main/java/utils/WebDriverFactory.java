@@ -12,12 +12,16 @@ public class WebDriverFactory {
 
             Log.info("WebDriver instance is being created...");
 
-            ChromeOptions options = new ChromeOptions();
+            ChromeOptions cop = new ChromeOptions();
+
+            cop.addArguments("--remote-allow-origins=*");
 
             // options.addArguments("-disable-blink-features=AutomationControlled");
 
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(cop);
+
             driver.manage().window().maximize();
+
             Log.info("WebDriver instance created and window maximized.");
         }
         return driver;
@@ -31,4 +35,11 @@ public class WebDriverFactory {
             Log.info("WebDriver instance closed successfully.");
         }
     }
+
+    public static void takeScreenshot(String fileName) {
+
+            ScreenshotHelper.takeScreenshot(driver, fileName);
+
+    }
+
 }

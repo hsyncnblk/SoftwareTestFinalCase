@@ -31,6 +31,10 @@ public class ProductDetailPage extends BasePage{
     };
 
     public void selectSize(){
+
+
+
+
         for (String xpath : sizeButtonsXpaths) {
 
             WebElement button = driver.findElement(By.xpath(xpath));
