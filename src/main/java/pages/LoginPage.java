@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import utils.WebDriverFactory;
 
 import java.time.Duration;
@@ -41,6 +42,8 @@ public class LoginPage extends BasePage{
         clickElement(loginBtn);
 
         driver.navigate().to("https://www.lcw.com/");
+
+        Assert.assertEquals(driver.getCurrentUrl(),"https://www.lcw.com/","Anasayfaya yönlenmedi");
     }
 
 }
