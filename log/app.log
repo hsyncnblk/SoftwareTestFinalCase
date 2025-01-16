@@ -1068,3 +1068,107 @@ Session ID: 29841dba378039365adb4e2efde03753
 2025-01-16 18:10:56 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (b3dccd1639cbcb24ad9a914cb21d508b)] -> xpath: //span[contains(text(),'Favorilerim')]]
 2025-01-16 18:11:03 INFO  Log:12 - Closing WebDriver instance...
 2025-01-16 18:11:03 INFO  Log:12 - WebDriver instance closed successfully.
+2025-01-16 22:54:58 INFO  Log:12 - I am in onStart method SoftwareTestProject
+2025-01-16 22:54:58 INFO  Log:12 - WebDriver instance is being created...
+2025-01-16 22:55:02 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-16 22:55:04 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-16 22:55:05 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-16 22:55:05 INFO  Log:12 - testLogin test is starting.
+2025-01-16 22:55:07 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-16 22:55:07 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:55:07 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:55:09 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-16 22:55:09 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:55:09 INFO  Log:12 - Text entered: deneme..76 into element: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:55:11 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Giriş Yap')]'
+2025-01-16 22:55:16 INFO  Log:12 - I am in onTestSuccess method testLogin succeed
+2025-01-16 22:55:16 INFO  Log:12 - testFilter test is starting.
+2025-01-16 22:55:16 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //a[contains(text(),'ÇOCUK & BEBEK')]]
+2025-01-16 22:55:17 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //span[contains(text(),'KIZ ÇOCUK')]]
+2025-01-16 22:55:21 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.linkText: Mont ve Kaban'
+2025-01-16 22:55:22 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //span[contains(text(),'5-6 Yaş')]]
+2025-01-16 22:55:25 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:55:25 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[3]/div[3]/div[1]/span[1]]
+2025-01-16 22:55:28 INFO  Log:12 - Text entered: 6-7 Yaş into element: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:55:30 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //span[contains(text(),'6-7 Yaş')]]
+2025-01-16 22:55:34 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:55:34 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[3]/div[2]]
+2025-01-16 22:55:37 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:55:41 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/button[1]]
+2025-01-16 22:55:44 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //a[contains(text(),'En çok satanlar')]]
+2025-01-16 22:55:53 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[4]/a[1]/div[1]/img[1]'
+2025-01-16 22:55:54 INFO  Log:12 - I am in onTestSuccess method testFilter succeed
+2025-01-16 22:55:54 INFO  Log:12 - testDetail test is starting.
+2025-01-16 22:55:55 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //button[contains(text(),'5-6 Yaş')]]
+2025-01-16 22:55:58 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //button[contains(text(),'SEPETE EKLE')]]
+2025-01-16 22:56:05 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //header/div[1]/div[3]/div[1]/div[2]/a[1]]
+2025-01-16 22:56:08 INFO  Log:12 - I am in onTestSuccess method testDetail succeed
+2025-01-16 22:56:08 INFO  Log:12 - testCart test is starting.
+2025-01-16 22:56:08 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //a[starts-with(@id, 'Cart_AddQuantity_')]]
+2025-01-16 22:56:11 INFO  Log:12 - I am in onTestSuccess method testCart succeed
+2025-01-16 22:56:12 INFO  Log:12 - testFavorite test is starting.
+2025-01-16 22:56:12 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //a[starts-with(@id, 'Cart_addFavorite_')]]
+2025-01-16 22:56:18 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (016eea4de22f5b84eeda94b869c32e93)] -> xpath: //span[contains(text(),'Favorilerim')]]
+2025-01-16 22:56:21 INFO  Log:12 - I am in onTestFailure method testFavorite failed
+2025-01-16 22:56:21 INFO  Log:12 - Screenshot captured for test case:testFavorite
+2025-01-16 22:56:21 INFO  Log:12 - Closing WebDriver instance...
+2025-01-16 22:56:21 INFO  Log:12 - WebDriver instance closed successfully.
+2025-01-16 22:56:21 INFO  Log:12 - I am in onFinish method SoftwareTestProject
+2025-01-16 22:57:51 INFO  Log:12 - I am in onStart method SoftwareTestProject
+2025-01-16 22:57:51 INFO  Log:12 - WebDriver instance is being created...
+2025-01-16 22:57:54 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-16 22:57:55 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-16 22:57:56 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-16 22:57:57 INFO  Log:12 - Cookies banner is not displayed.
+2025-01-16 22:57:57 INFO  Log:12 - testLogin test is starting.
+2025-01-16 22:57:58 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (27ac99ad2c307a2410b8e2c2525e3437)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-16 22:57:58 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (27ac99ad2c307a2410b8e2c2525e3437)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:57:59 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (27ac99ad2c307a2410b8e2c2525e3437)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:58:00 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-16 22:58:00 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (27ac99ad2c307a2410b8e2c2525e3437)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:58:01 INFO  Log:12 - Text entered: deneme..76 into element: [[ChromeDriver: chrome on windows (27ac99ad2c307a2410b8e2c2525e3437)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:58:19 INFO  Log:12 - I am in onStart method SoftwareTestProject
+2025-01-16 22:58:19 INFO  Log:12 - WebDriver instance is being created...
+2025-01-16 22:58:21 INFO  Log:12 - WebDriver instance created and window maximized.
+2025-01-16 22:58:24 INFO  Log:12 - Web page opened: https://www.lcw.com/
+2025-01-16 22:58:25 INFO  Log:12 - Cookies banner is displayed, clicking...
+2025-01-16 22:58:25 INFO  Log:12 - testLogin test is starting.
+2025-01-16 22:58:27 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //span[contains(text(),'Giriş Yap')]]
+2025-01-16 22:58:28 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:58:28 INFO  Log:12 - Text entered: huseyincinibulak34@gmail.com into element: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]]
+2025-01-16 22:58:29 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Devam Et')]'
+2025-01-16 22:58:30 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:58:30 INFO  Log:12 - Text entered: deneme..76 into element: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:58:31 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Giriş Yap')]'
+2025-01-16 22:58:35 INFO  Log:12 - I am in onTestSuccess method testLogin succeed
+2025-01-16 22:58:36 INFO  Log:12 - testFilter test is starting.
+2025-01-16 22:58:36 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //a[contains(text(),'ÇOCUK & BEBEK')]]
+2025-01-16 22:58:37 INFO  Log:12 - Hovered over  [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //span[contains(text(),'KIZ ÇOCUK')]]
+2025-01-16 22:58:42 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.linkText: Mont ve Kaban'
+2025-01-16 22:58:43 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //span[contains(text(),'5-6 Yaş')]]
+2025-01-16 22:58:46 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:58:46 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[3]/div[3]/div[1]/span[1]]
+2025-01-16 22:58:49 INFO  Log:12 - Text entered: 6-7 Yaş into element: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[1]/input[1]]
+2025-01-16 22:58:51 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //span[contains(text(),'6-7 Yaş')]]
+2025-01-16 22:58:55 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:58:55 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[3]/div[2]]
+2025-01-16 22:58:58 INFO  Log:12 - Sayfa tamamen yüklendi.
+2025-01-16 22:59:00 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/button[1]]
+2025-01-16 22:59:03 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //a[contains(text(),'En çok satanlar')]]
+2025-01-16 22:59:10 INFO  Log:12 - Element clicked: Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[4]/a[1]/div[1]/img[1]'
+2025-01-16 22:59:12 INFO  Log:12 - I am in onTestSuccess method testFilter succeed
+2025-01-16 22:59:12 INFO  Log:12 - testDetail test is starting.
+2025-01-16 22:59:12 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //button[contains(text(),'5-6 Yaş')]]
+2025-01-16 22:59:15 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //button[contains(text(),'SEPETE EKLE')]]
+2025-01-16 22:59:22 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //header/div[1]/div[3]/div[1]/div[2]/a[1]]
+2025-01-16 22:59:25 INFO  Log:12 - I am in onTestSuccess method testDetail succeed
+2025-01-16 22:59:26 INFO  Log:12 - testCart test is starting.
+2025-01-16 22:59:26 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //a[starts-with(@id, 'Cart_AddQuantity_')]]
+2025-01-16 22:59:29 INFO  Log:12 - I am in onTestSuccess method testCart succeed
+2025-01-16 22:59:29 INFO  Log:12 - testFavorite test is starting.
+2025-01-16 22:59:30 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //a[starts-with(@id, 'Cart_addFavorite_')]]
+2025-01-16 22:59:35 INFO  Log:12 - Element clicked: [[ChromeDriver: chrome on windows (2bf021e81d14acfa11512a575540931c)] -> xpath: //span[contains(text(),'Favorilerim')]]
+2025-01-16 22:59:42 INFO  Log:12 - I am in onTestSuccess method testFavorite succeed
+2025-01-16 22:59:42 INFO  Log:12 - Closing WebDriver instance...
+2025-01-16 22:59:42 INFO  Log:12 - WebDriver instance closed successfully.
+2025-01-16 22:59:42 INFO  Log:12 - I am in onFinish method SoftwareTestProject
