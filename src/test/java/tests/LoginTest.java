@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
 import utils.Listeners.TestListeners;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 @Listeners({ TestListeners.class })
@@ -27,6 +28,9 @@ public class LoginTest extends BaseTest{
         loginPage = new LoginPage(WebDriverFactory.getDriver());
 
         homePage.loginScreen();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "login_screenshot");
+
 
         loginPage.login();
 

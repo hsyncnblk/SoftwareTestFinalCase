@@ -17,6 +17,9 @@ public class FilterPage extends BasePage{
     public FilterPage(WebDriver driver) {
         super(driver);
     }
+
+
+
     @FindBy(xpath = "//a[contains(text(),'ÇOCUK & BEBEK')]")
     private WebElement childAndBaby;
 
@@ -119,6 +122,8 @@ public class FilterPage extends BasePage{
 
 
 
+
+        //url verify ve refresh
      //   Assert.assertEquals(driver.getCurrentUrl(), "https://www.lcw.com/kiz-cocuk-dis-giyim-t-1010?Sort=PersonalizationSorting&beden=5-6-yas,6-yas,6-7-yas&renk=bej");
 
         driver.navigate().to("https://www.lcw.com/kiz-cocuk-dis-giyim-t-1010?beden=5-6-yas,6-yas,6-7-yas&renk=bej");
@@ -138,5 +143,5 @@ public class FilterPage extends BasePage{
     }
 
 
-
 }
+

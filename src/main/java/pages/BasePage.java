@@ -100,17 +100,6 @@ public class BasePage {
         }
     }
 
-    public void threadiki() {
-        try{
-            Thread.sleep(10);
-
-        }catch (Exception e){
-
-            Log.info(String.valueOf(e));
-
-        }
-    }
-
     public void waitForPageToLoad() {
         wait.until(webDriver -> ((JavascriptExecutor) webDriver)
                 .executeScript("return document.readyState").equals("complete"));

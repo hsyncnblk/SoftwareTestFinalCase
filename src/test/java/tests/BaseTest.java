@@ -2,6 +2,8 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -19,12 +21,14 @@ public class BaseTest {
         WebDriverFactory.getDriver().get("https://www.lcw.com/");
         Log.info("Web page opened: https://www.lcw.com/");
 
-        WebDriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(5));
+
+
 
         // cookie accepted
         try {
-            WebElement cookies =  WebDriverFactory.getDriver().findElement(By.xpath("//body/div[@id='cookieseal-banner']/div[1]"));
-            WebElement cookiesBtn =  WebDriverFactory.getDriver().findElement(By.xpath("//button[@id='cookieseal-banner-accept']"));
+            WebElement cookies = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("cookieseal-banner")));
+            WebElement cookiesBtn = wait.until(ExpectedConditions.elementToBeClickable(By.id("cookieseal-banner-accept")));
             if (cookies.isDisplayed()) {
                 Log.info("Cookies banner is displayed, clicking...");
                 cookiesBtn.click();

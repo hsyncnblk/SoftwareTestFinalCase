@@ -52,6 +52,7 @@ public class TestListeners extends BaseTest implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
+        Log.info("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
         //Extentreports log operation for passed tests.
         ExtentTestManager.getTest().log(LogStatus.PASS, "Test passed");
         saveScreenshotPNG(WebDriverFactory.getDriver());
@@ -62,7 +63,7 @@ public class TestListeners extends BaseTest implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
-
+        Log.info("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
         //Get driver from BaseTest and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
         // WebDriver driver = ((BaseTest) testClass).getDriver();
@@ -70,6 +71,7 @@ public class TestListeners extends BaseTest implements ITestListener {
         //Allure ScreenShotRobot and SaveTestLog
         if (WebDriverFactory.getDriver() instanceof WebDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+            Log.info("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(WebDriverFactory.getDriver());
         }
 
@@ -96,11 +98,13 @@ public class TestListeners extends BaseTest implements ITestListener {
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
         System.out.println("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
+        Log.info("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
     }
 
     @Override
     public void onStart(ITestContext iTestContext) {
         System.out.println("I am in onStart method " + iTestContext.getName());
+        Log.info("I am in onStart method " + iTestContext.getName());
         iTestContext.setAttribute("WebDriver", WebDriverFactory.getDriver());
 
     }
@@ -108,6 +112,7 @@ public class TestListeners extends BaseTest implements ITestListener {
     @Override
     public void onFinish(ITestContext iTestContext) {
         System.out.println("I am in onFinish method " + iTestContext.getName());
+        Log.info("I am in onFinish method " + iTestContext.getName());
         //Do tier down operations for extentreports reporting!
         ExtentTestManager.endTest();
         ExtentManager.getReporter().flush();

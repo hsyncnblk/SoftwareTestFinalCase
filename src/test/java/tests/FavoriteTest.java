@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.Listeners.TestListeners;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 @Listeners({ TestListeners.class })
@@ -39,6 +40,9 @@ public class FavoriteTest extends BaseTest{
 
         homePage.loginScreen();
 
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "login_screenshot");
+
+
         loginPage.login();
 
     }
@@ -55,6 +59,8 @@ public class FavoriteTest extends BaseTest{
         filterPage.sixFilter();
         filterPage.sixAndSevenFilter();
         filterPage.setColor();
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "filter_screenshot");
+
         filterPage.setSales();
 
     }
@@ -77,6 +83,9 @@ public class FavoriteTest extends BaseTest{
 
         productDetailPage.selectSize();
         productDetailPage.addToCart();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "detail_screenshot");
+
         productDetailPage.goToCart();
     }
 
@@ -87,9 +96,9 @@ public class FavoriteTest extends BaseTest{
     public void testCart(){
         cartPage = new CartPage(WebDriverFactory.getDriver());
 
-
-
         cartPage.verifyProduct();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "cart_screenshot");
 
         cartPage.quantitiyTest();
 
@@ -99,14 +108,16 @@ public class FavoriteTest extends BaseTest{
     @Description("Test Description: Add product to favorites and verify the product is added correctly.")
     @Test(priority = 5, description = "Test scenario for adding a product to the favorites and verifying the product in the favorites list.")
     @Severity(SeverityLevel.NORMAL)
-    @Story("Add to Favorites Test")
+    @Story("Add to Favorites ")
     public void testFavorite(){
         favoritePage = new FavoritePage(WebDriverFactory.getDriver());
-
-
 
         favoritePage.addFavorite();
 
         favoritePage.verifyFav();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "fav_screenshot");
+
+        favoritePage.goCart();
     }
 }

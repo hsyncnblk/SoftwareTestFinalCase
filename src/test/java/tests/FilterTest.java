@@ -7,6 +7,7 @@ import pages.FilterPage;
 import pages.HomePage;
 import pages.LoginPage;
 import utils.Listeners.TestListeners;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 @Listeners({ TestListeners.class })
@@ -32,6 +33,9 @@ public class FilterTest extends BaseTest{
 
         homePage.loginScreen();
 
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "login_screenshot");
+
+
         loginPage.login();
 
     }
@@ -49,6 +53,8 @@ public class FilterTest extends BaseTest{
         filterPage.sixFilter();
         filterPage.sixAndSevenFilter();
         filterPage.setColor();
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "filter_screenshot");
+
         filterPage.setSales();
     }
 

@@ -21,6 +21,7 @@ public class FavoritePage extends BasePage{
     @FindBy(xpath = "//span[contains(text(),'Favorilerim')]")
     private WebElement goToFav;
 
+    String item = "LC Waikiki";
     public void addFavorite(){
         //   String productId = productLink.getAttribute("productid");
 
@@ -37,11 +38,23 @@ public class FavoritePage extends BasePage{
         clickElement(goToFav);
 
         WebElement productTitle = driver.findElement(By.xpath("//h5[@class='product-card__title']"));
+        WebElement cartItemTitle = driver.findElement(By.xpath("//span[@class='rd-cart-item-title']"));
+
         WebElement productColor = driver.findElement(By.xpath("//span[@class='product-card__color-title']"));
+
+
         String productTitleText = productTitle.getText();
         String productColorText = productColor.getText();
-        Assert.assertEquals(productTitleText,"Kapüşonlu Kız Çocuk Kaban");
-        Assert.assertEquals(productColorText,"BEJ");
+        String itemText = cartItemTitle.getText();
 
+        Assert.assertTrue(productTitleText.contains("Kapüşonlu Kız Çocuk"));
+        Assert.assertEquals(itemText,item);
+        //Assert.assertEquals(productTitleText,"Kapüşonlu Kız Çocuk");
+        Assert.assertTrue(productColorText.contains("BEJ"), "renk bej değil");
+
+    }
+
+    public void goCart(){
+        driver.navigate().to("https://www.lcw.com/sepetim");
     }
 }

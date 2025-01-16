@@ -35,7 +35,7 @@ public class LoginPage extends BasePage{
         write(emailField,"huseyincinibulak34@gmail.com");
         click(continueBtn);
         click(passwordField);
-        wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(3));
+        //wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(3));
         write(passwordField,"deneme..76");
 
         clickElement(loginBtn);

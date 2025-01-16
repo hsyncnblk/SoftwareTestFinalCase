@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.Listeners.TestListeners;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 
@@ -33,6 +34,9 @@ public class ProductDetailTest extends BaseTest{
 
         homePage.loginScreen();
 
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "login_screenshot");
+
+
         loginPage.login();
 
     }
@@ -49,6 +53,10 @@ public class ProductDetailTest extends BaseTest{
         filterPage.sixFilter();
         filterPage.sixAndSevenFilter();
         filterPage.setColor();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "filter_screenshot");
+
+        filterPage.setSales();
 
     }
 
@@ -71,6 +79,8 @@ public class ProductDetailTest extends BaseTest{
 
         productDetailPage.selectSize();
         productDetailPage.addToCart();
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "detail_screenshot");
+
         productDetailPage.goToCart();
     }
 }

@@ -6,6 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.Listeners.TestListeners;
+import utils.ScreenshotHelper;
 import utils.WebDriverFactory;
 
 
@@ -36,9 +37,13 @@ public class CartTest extends BaseTest{
 
         homePage.loginScreen();
 
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "login_screenshot");
+
+
         loginPage.login();
 
     }
+
 
     @Description("Test Description: Filtering products by category, age, color, and sorting by most sales.")
     @Test(priority = 2, description = "Success Filter Scenario with category, age, and color selection.")
@@ -52,6 +57,8 @@ public class CartTest extends BaseTest{
         filterPage.sixFilter();
         filterPage.sixAndSevenFilter();
         filterPage.setColor();
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "filter_screenshot");
+
         filterPage.setSales();
 
     }
@@ -75,6 +82,9 @@ public class CartTest extends BaseTest{
 
         productDetailPage.selectSize();
         productDetailPage.addToCart();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "detail_screenshot");
+
         productDetailPage.goToCart();
     }
 
@@ -91,6 +101,9 @@ public class CartTest extends BaseTest{
        // String selectedSize = productDetailPage.getSelectedSize();
 
         cartPage.verifyProduct();
+
+        ScreenshotHelper.takeScreenshot(WebDriverFactory.getDriver(), "cart_screenshot");
+
 
         cartPage.quantitiyTest();
 
