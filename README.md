@@ -75,10 +75,9 @@ mvn clean install
 
 ## Explanation:
 
-- **target**:
-  - **allure-results**: Directory where Allure test reports are generated.
-  - **ExtentReports/ExtentReportResults.html**: The HTML file containing the Extent Report of the test execution.
-  - **jmatter-result**: Directory for storing JMeter performance testing results.
+- **allure-results**: Directory where Allure test reports are generated.
+- **ExtentReports/ExtentReportResults.html**: The HTML file containing the Extent Report of the test execution.
+- **jmatter-result**: Directory for storing JMeter performance testing results.
 
 - **src/main/java/pages**:
   - **BasePage.java**: This is an abstract class that reduces code duplication for common page functionalities.
