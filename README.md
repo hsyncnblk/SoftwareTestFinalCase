@@ -32,13 +32,13 @@ Ensure you have the following software installed on your machine:
    **Java JDK** :
    - Download and install from [Oracle's official website](https://www.oracle.com/tr/java/technologies/downloads/) 
    
-    **IDE (Integrated Development Environment)**:
+   **IDE (Integrated Development Environment)**:
    -  Use [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows), [Eclipse](https://www.eclipse.org/downloads/), or other IDEs to organize and run tests.
 
-    **Git** – For cloning the repository:
+   **Git** – For cloning the repository:
    - Install Git from [Git's official website](https://git-scm.com/) if it's not already installed.
 
-    **Allure Command Line** (Optional for report generation):
+   **Allure Command Line** (Optional for report generation):
    - Install Allure by following the instructions on [Allure's GitHub page](https://github.com/allure-framework/allure2).
 
 
