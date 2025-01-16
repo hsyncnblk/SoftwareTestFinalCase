@@ -119,22 +119,22 @@ This structure helps maintain a clean, scalable, and organized test automation f
 Below are the screenshots of different pages tested in this project:
 
 ### 🏠 Home Page
-![Home Page](src/test/resources/screenshots/home.png)
+![Home Page](src/test/resources/screenshots/test_screenshot_20250116_174026.png)
 
 ### 🔐 Login Page
-![Home Page](src/test/resources/screenshots/login.png)
+![Home Page](src/test/resources/screenshots/login_screenshot_20250116_180148.png)
 
 ### 🔍 Filter Page
-![Filter Page](src/test/resources/screenshots/filter.png)
+![Filter Page](src/test/resources/screenshots/filter_screenshot_20250116_180700.png)
 
 ### 📄 Detail Page
-![Detail Page](src/test/resources/screenshots/detail.png)
+![Detail Page](src/test/resources/screenshots/detail_screenshot_20250116_175539.png)
 
 ### 🛒 Cart Page
-![Detail Page](src/test/resources/screenshots/cart.png)
+![Detail Page](src/test/resources/screenshots/cart_screenshot_20250116_180726.png)
 
 ### ❤️ Favorite Page
-![Favorite Page](src/test/resources/screenshots/favorite.png)
+![Favorite Page](src/test/resources/screenshots/fav_screenshot_20250116_181100.png)
 
 
 
