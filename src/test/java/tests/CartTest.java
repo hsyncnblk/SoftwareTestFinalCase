@@ -19,8 +19,6 @@ public class CartTest extends BaseTest{
 
     ProductDetailPage productDetailPage;
 
-    ProductListPage productListPage;
-
     FilterPage filterPage;
 
     CartPage cartPage;
@@ -62,15 +60,6 @@ public class CartTest extends BaseTest{
         filterPage.setSales();
 
     }
-/*
-    @Test(priority = 3)
-    public void testList(){
-        productListPage = new ProductListPage(WebDriverFactory.getDriver());
-
-        productListPage.setSales();
-    }
-
- */
 
 
     @Description("Test Description: Selecting a product size, adding it to the cart, and navigating to the cart.")
@@ -94,11 +83,6 @@ public class CartTest extends BaseTest{
     @Story("Cart operations: Product verification and quantity management")
     public void testCart(){
         cartPage = new CartPage(WebDriverFactory.getDriver());
-       // productDetailPage = new ProductDetailPage(WebDriverFactory.getDriver());
-
-       // String selectedColor = productDetailPage.getSelectedColor();
-
-       // String selectedSize = productDetailPage.getSelectedSize();
 
         cartPage.verifyProduct();
 

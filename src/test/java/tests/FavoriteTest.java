@@ -19,8 +19,6 @@ public class FavoriteTest extends BaseTest{
 
     ProductDetailPage productDetailPage;
 
-    ProductListPage productListPage;
-
     FilterPage filterPage;
 
     CartPage cartPage;
@@ -65,14 +63,6 @@ public class FavoriteTest extends BaseTest{
 
     }
 
-  /*  @Test(priority = 3)
-    public void testList(){
-        productListPage = new ProductListPage(WebDriverFactory.getDriver());
-
-        productListPage.setSales();
-    }
-
-   */
 
     @Description("Test Description: Selecting a product size, adding it to the cart, and navigating to the cart.")
     @Test(priority = 3, description = "Success Product Detail Scenario with size selection and add to cart.")

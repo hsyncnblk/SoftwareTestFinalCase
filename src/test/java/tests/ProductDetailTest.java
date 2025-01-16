@@ -18,8 +18,6 @@ public class ProductDetailTest extends BaseTest{
 
     ProductDetailPage productDetailPage;
 
-    ProductListPage productListPage;
-
     FilterPage filterPage;
 
 
@@ -59,15 +57,6 @@ public class ProductDetailTest extends BaseTest{
         filterPage.setSales();
 
     }
-
-  /*  @Test(priority = 3)
-    public void testList(){
-        productListPage = new ProductListPage(WebDriverFactory.getDriver());
-
-        productListPage.setSales();
-    }
-
-   */
 
 
     @Description("Test Description: Selecting a product size, adding it to the cart, and navigating to the cart.")
