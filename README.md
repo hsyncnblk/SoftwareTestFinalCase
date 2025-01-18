@@ -4,7 +4,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 
 ## Table of Contents
 
-- [Technologies Used](#🛠️technologies-used)
+- [Technologies Used](#technologies-used)
 - [Test Plan](#test-plan)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
@@ -12,7 +12,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 - [Explanation](#explanation)
 - [App Images](#app-images)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Java** – The programming language used for test automation.  
 - **Selenium** – A testing tool for automating web applications.  
