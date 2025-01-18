@@ -5,6 +5,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
+- [Test Plan](#test-plan)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Project Dependencies](#project-dependencies)
@@ -20,7 +21,12 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 - **Allure Reports** – A reporting tool that visualizes test results in detail.  
 - **Extent Reports** – A framework for generating detailed test execution reports.  
 - **Log4j2** – A logging library for managing logs and debugging test processes.  
-- **Apache JMeter** – A testing tool for performance and load testing.  
+- **Apache JMeter** – A testing tool for performance and load testing.
+
+
+## Test Plan
+
+The test plan for the LC Waikiki Bootcamp graduation project is provided in the following Google Doc: [LC Waikiki Bootcamp Graduation Project Test Plan.](https://docs.google.com/document/d/1pkD5oo1-eWxtkA5KHPXAMZXISXXrZ9VVhs6z1Cpl4OA/edit?usp=sharing)
 
 
 ## 🚀 Installation
