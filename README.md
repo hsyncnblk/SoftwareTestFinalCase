@@ -86,7 +86,7 @@ mvn clean install
 - **`jmatter-result`**: Directory for storing JMeter performance testing results.
 
 - **`src/main/java/pages`**:
-  - **BasePage.java**: This is an abstract class that reduces code duplication for common page functionalities.
+  - **BasePage.java**: This is a class that reduces code duplication for common page functionalities.
   - Each page class in this folder contains its own specific locators and methods related to the page.
 
 - **`src/main/java/utils`**:
