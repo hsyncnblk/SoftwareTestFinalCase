@@ -7,8 +7,6 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 - [Technologies Used](#technologies-used)
 - [Test Plan](#test-plan)
 - [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Project Dependencies](#project-dependencies)
 - [Explanation](#explanation)
 - [App Images](#app-images)
 
@@ -83,36 +81,36 @@ mvn clean install
 
 ## Explanation:
 
-- **allure-results**: Directory where Allure test reports are generated.
-- **ExtentReports/ExtentReportResults.html**: The HTML file containing the Extent Report of the test execution.
-- **jmatter-result**: Directory for storing JMeter performance testing results.
+- **`allure-results`**: Directory where Allure test reports are generated.
+- **`ExtentReports/ExtentReportResults.html`**: The HTML file containing the Extent Report of the test execution.
+- **`jmatter-result`**: Directory for storing JMeter performance testing results.
 
-- **src/main/java/pages**:
+- **`src/main/java/pages`**:
   - **BasePage.java**: This is an abstract class that reduces code duplication for common page functionalities.
   - Each page class in this folder contains its own specific locators and methods related to the page.
 
-- **src/main/java/utils**:
+- **`src/main/java/utils`**:
   - **Log.java**: Utility class for logging test execution details.
   - **ScreenshotHelper.java**: Utility class for capturing screenshots during tests.
   - **WebDriverFactory.java**: Factory class that initializes and provides WebDriver instances.
 
-- **src/test/java/tests**:
+- **`src/test/java/tests`**:
   - **BaseTest.java**: Base class that contains common test setup and teardown methods that can be extended by individual test classes.
   - Contains various test classes for testing the application.
 
-- **src/test/java/utils/ExtentReports**:
+- **`src/test/java/utils/ExtentReports`**:
   - **ExtentManager.java**: Manages the configuration and setup of Extent Reports.
   - **ExtentTestManager.java**: Manages the individual test execution logs in Extent Reports.
 
-- **src/test/java/utils/Listener**:
+- **`src/test/java/utils/Listener`**:
   - **TestListeners.java**: Contains custom listeners used for test execution, such as capturing screenshots when a test fails.
 
-- **src/test/resources**:
+- **`src/test/resources`**:
   - **screenshots**: Directory where all the screenshots taken during test execution will be stored.
   - **log4j2.xml**: Configuration file for Log4j2 to manage logging during test execution.
 
 
-- **pom.xml**: The Maven configuration file that manages all the project dependencies.
+- **`pom.xml`**: The Maven configuration file that manages all the project dependencies.
 
 This structure helps maintain a clean, scalable, and organized test automation framework.
 
