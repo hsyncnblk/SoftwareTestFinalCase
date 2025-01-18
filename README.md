@@ -23,13 +23,13 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 - **Log4j2** – A logging library for managing logs and debugging test processes.  
 - **Apache JMeter** – A testing tool for performance and load testing.
  
- ---
+ 
 ## Test Plan
 
 The test plan for the LC Waikiki Bootcamp graduation project is provided in the following Google Doc: [LC Waikiki Bootcamp Graduation Project Test Plan.](https://docs.google.com/document/d/1pkD5oo1-eWxtkA5KHPXAMZXISXXrZ9VVhs6z1Cpl4OA/edit?usp=sharing)
 
 
----
+
 ## Installation 
 
 ### Prerequisites
