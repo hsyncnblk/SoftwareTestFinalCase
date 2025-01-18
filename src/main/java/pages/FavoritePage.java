@@ -23,8 +23,6 @@ public class FavoritePage extends BasePage{
 
 
     public void addFavorite(){
-        //   String productId = productLink.getAttribute("productid");
-
 
 
         wait.until(ExpectedConditions.elementToBeClickable(favoriteButton));
@@ -48,8 +46,7 @@ public class FavoritePage extends BasePage{
        // String itemText = cartItemTitle.getText();
 
         Assert.assertTrue(productTitleText.contains("Kapüşonlu Kız Çocuk"));
-       // Assert.assertEquals(itemText,item);
-        //Assert.assertEquals(productTitleText,"Kapüşonlu Kız Çocuk");
+
         Assert.assertTrue(productColorText.contains("BEJ"), "renk bej değil");
 
     }

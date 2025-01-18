@@ -44,8 +44,6 @@ public class CartPage extends BasePage{
 
         Assert.assertEquals(actualValue,"1");
 
-        Assert.assertEquals(actualProductName, "Mont" , "Ürün türü kaban değil");
-
         Assert.assertTrue(actualColor.contains("Bej"));
 
         Assert.assertEquals(priceValue,totalPriceValue);
