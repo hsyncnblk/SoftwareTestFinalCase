@@ -4,7 +4,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 
 ## Table of Contents
 
-- [Technologies Used](#technologies-used)
+- [🛠 Technologies Used](#technologies-used)
 - [Test Plan](#test-plan)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
@@ -12,7 +12,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 - [Explanation](#explanation)
 - [App Images](#app-images)
 
-## Technologies Used 🛠 
+## 🛠 Technologies Used
 
 - **Java** – The programming language used for test automation.  
 - **Selenium** – A testing tool for automating web applications.  
@@ -29,7 +29,7 @@ This project is the graduation project of the Patika-LC Waikiki Software Testing
 The test plan for the LC Waikiki Bootcamp graduation project is provided in the following Google Doc: [LC Waikiki Bootcamp Graduation Project Test Plan.](https://docs.google.com/document/d/1pkD5oo1-eWxtkA5KHPXAMZXISXXrZ9VVhs6z1Cpl4OA/edit?usp=sharing)
 
 
-## Installation 🚀
+## 🚀 Installation 
 
 ### Prerequisites
 
