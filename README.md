@@ -136,7 +136,7 @@ Below are the screenshots of different pages tested in this project:
 ![Detail Page](src/test/resources/screenshots/detail_screenshot_20250116_175539.png)
 
 ### 🛒 Cart Page
-![Detail Page](src/test/resources/screenshots/cart_screenshot_20250116_180726.png)
+![Cart Page](src/test/resources/screenshots/cart_screenshot_20250116_225926.png)
 
 ### ❤️ Favorite Page
 ![Favorite Page](src/test/resources/screenshots/fav_screenshot_20250116_181100.png)
